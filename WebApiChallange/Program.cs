@@ -37,7 +37,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseCors(options =>
 {
-	options.WithOrigins("http://localhost:5173"); // :3000(React only)
+	options.WithOrigins("http://localhost:0000");
 	options.AllowAnyMethod();
 	options.AllowAnyHeader();
 });
