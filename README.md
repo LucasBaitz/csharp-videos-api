@@ -77,7 +77,7 @@ Exemplo de configuração do banco de dados:
     "DefaultConnection": "Server=localhost;Database=VibeFlixDB;Uid=seu_usuario;Pwd=sua_senha;"
   }
 }
-
+```
 Pré-requisitos
 - ASP.NET Core SDK instalado
 - MySQL Server instalado
@@ -106,7 +106,7 @@ app.UseCors(options =>
 	options.AllowAnyMethod();
 	options.AllowAnyHeader();
 });
-
+```
 
 Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas (issues) e enviar pull requests para melhorar esta API.
